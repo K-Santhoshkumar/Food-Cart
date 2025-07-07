@@ -1,184 +1,146 @@
 [
   {
-    "id": 89,
-    "name": "Farmers Pick",
+    "id": 1,
+    "name": "Margherita Pizza",
     "amt": "299",
-    "shop": "Kholi Hut",
-    "ftype": "Chicken-chilli",
-    "pic": "https://www.app.tutorjoes.in/img/food/9.jpg",
-    "latest": "No"
-  },
-  {
-    "id": 124,
-    "name": "Paper Roast Dosa",
-    "amt": "65",
-    "shop": "Sri Saivihar",
+    "shop": "Pizza Palace",
     "ftype": "Veg",
-    "pic": "https://www.app.tutorjoes.in/img/food/124.jpg",
-    "latest": "No"
+    "category": "Italian",
+    "pic": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+    "latest": "Yes",
+    "rating": 4.5,
+    "description": "Classic Italian pizza with fresh tomatoes, mozzarella, and basil"
   },
   {
-    "id": 26,
-    "name": "Alfredo Pasta",
-    "amt": "185",
-    "shop": "LAKSHMI FOOD ",
+    "id": 2,
+    "name": "Chicken Biryani",
+    "amt": "350",
+    "shop": "Spice Garden",
+    "ftype": "Non-Veg",
+    "category": "Indian",
+    "pic": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg",
+    "latest": "Yes",
+    "rating": 4.8,
+    "description": "Aromatic basmati rice with tender chicken and exotic spices"
+  },
+  {
+    "id": 3,
+    "name": "Caesar Salad",
+    "amt": "180",
+    "shop": "Green Bowl",
     "ftype": "Veg",
-    "pic": "https://www.app.tutorjoes.in/img/food/26.jpg",
-    "latest": "Yes"
+    "category": "Salads",
+    "pic": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg",
+    "latest": "No",
+    "rating": 4.2,
+    "description": "Fresh romaine lettuce with parmesan cheese and caesar dressing"
   },
   {
-    "id": 89,
-    "name": "Farmers Pick",
-    "amt": "299",
-    "shop": "Kholi Hut",
-    "ftype": "Chicken-chilli",
-    "pic": "https://www.app.tutorjoes.in/img/food/9.jpg",
-    "latest": "No"
+    "id": 4,
+    "name": "Beef Burger",
+    "amt": "250",
+    "shop": "Burger Hub",
+    "ftype": "Non-Veg",
+    "category": "American",
+    "pic": "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg",
+    "latest": "Yes",
+    "rating": 4.6,
+    "description": "Juicy beef patty with fresh vegetables and special sauce"
   },
   {
-    "id": 124,
-    "name": "Paper Roast Dosa",
-    "amt": "65",
-    "shop": "Sri Saivihar",
+    "id": 5,
+    "name": "Pad Thai",
+    "amt": "220",
+    "shop": "Thai Express",
+    "ftype": "Non-Veg",
+    "category": "Thai",
+    "pic": "https://images.pexels.com/photos/1199957/pexels-photo-1199957.jpeg",
+    "latest": "No",
+    "rating": 4.4,
+    "description": "Traditional Thai stir-fried noodles with shrimp and peanuts"
+  },
+  {
+    "id": 6,
+    "name": "Sushi Platter",
+    "amt": "450",
+    "shop": "Tokyo Kitchen",
+    "ftype": "Non-Veg",
+    "category": "Japanese",
+    "pic": "https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg",
+    "latest": "Yes",
+    "rating": 4.9,
+    "description": "Fresh assorted sushi with wasabi and pickled ginger"
+  },
+  {
+    "id": 7,
+    "name": "Chocolate Cake",
+    "amt": "150",
+    "shop": "Sweet Dreams",
     "ftype": "Veg",
-    "pic": "https://www.app.tutorjoes.in/img/food/124.jpg",
-    "latest": "No"
+    "category": "Desserts",
+    "pic": "https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg",
+    "latest": "No",
+    "rating": 4.7,
+    "description": "Rich and moist chocolate cake with chocolate ganache"
   },
   {
-    "id": 26,
-    "name": "Alfredo Pasta",
-    "amt": "185",
-    "shop": "LAKSHMI FOOD ",
+    "id": 8,
+    "name": "Fish Tacos",
+    "amt": "280",
+    "shop": "Mexican Fiesta",
+    "ftype": "Non-Veg",
+    "category": "Mexican",
+    "pic": "https://images.pexels.com/photos/1633525/pexels-photo-1633525.jpeg",
+    "latest": "Yes",
+    "rating": 4.3,
+    "description": "Grilled fish with fresh salsa and avocado in soft tortillas"
+  },
+  {
+    "id": 9,
+    "name": "Masala Dosa",
+    "amt": "120",
+    "shop": "South Indian Corner",
     "ftype": "Veg",
-    "pic": "https://www.app.tutorjoes.in/img/food/26.jpg",
-    "latest": "Yes"
+    "category": "Indian",
+    "pic": "https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg",
+    "latest": "No",
+    "rating": 4.5,
+    "description": "Crispy rice crepe filled with spiced potato curry"
   },
   {
-    "id": 89,
-    "name": "Farmers Pick",
-    "amt": "299",
-    "shop": "Kholi Hut",
-    "ftype": "Chicken-chilli",
-    "pic": "https://www.app.tutorjoes.in/img/food/9.jpg",
-    "latest": "No"
+    "id": 10,
+    "name": "Greek Gyros",
+    "amt": "240",
+    "shop": "Mediterranean Delight",
+    "ftype": "Non-Veg",
+    "category": "Greek",
+    "pic": "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg",
+    "latest": "Yes",
+    "rating": 4.4,
+    "description": "Traditional Greek wrap with lamb, tzatziki, and fresh vegetables"
   },
   {
-    "id": 124,
-    "name": "Paper Roast Dosa",
-    "amt": "65",
-    "shop": "Sri Saivihar",
+    "id": 11,
+    "name": "Vegetable Stir Fry",
+    "amt": "160",
+    "shop": "Healthy Bites",
     "ftype": "Veg",
-    "pic": "https://www.app.tutorjoes.in/img/food/124.jpg",
-    "latest": "No"
+    "category": "Chinese",
+    "pic": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+    "latest": "No",
+    "rating": 4.1,
+    "description": "Fresh mixed vegetables stir-fried with garlic and soy sauce"
   },
   {
-    "id": 26,
-    "name": "Alfredo Pasta",
-    "amt": "185",
-    "shop": "LAKSHMI FOOD ",
-    "ftype": "Veg",
-    "pic": "https://www.app.tutorjoes.in/img/food/26.jpg",
-    "latest": "Yes"
-  },
-
-  {
-    "id": 89,
-    "name": "Farmers Pick",
-    "amt": "299",
-    "shop": "Kholi Hut",
-    "ftype": "Chicken-chilli",
-    "pic": "https://www.app.tutorjoes.in/img/food/9.jpg",
-    "latest": "No"
-  },
-  {
-    "id": 124,
-    "name": "Paper Roast Dosa",
-    "amt": "65",
-    "shop": "Sri Saivihar",
-    "ftype": "Veg",
-    "pic": "https://www.app.tutorjoes.in/img/food/124.jpg",
-    "latest": "No"
-  },
-  {
-    "id": 26,
-    "name": "Alfredo Pasta",
-    "amt": "185",
-    "shop": "LAKSHMI FOOD ",
-    "ftype": "Veg",
-    "pic": "https://www.app.tutorjoes.in/img/food/26.jpg",
-    "latest": "Yes"
-  },
-  {
-    "id": 89,
-    "name": "Farmers Pick",
-    "amt": "299",
-    "shop": "Kholi Hut",
-    "ftype": "Chicken-chilli",
-    "pic": "https://www.app.tutorjoes.in/img/food/9.jpg",
-    "latest": "No"
-  },
-  {
-    "id": 124,
-    "name": "Paper Roast Dosa",
-    "amt": "65",
-    "shop": "Sri Saivihar",
-    "ftype": "Veg",
-    "pic": "https://www.app.tutorjoes.in/img/food/124.jpg",
-    "latest": "No"
-  },
-  {
-    "id": 26,
-    "name": "Alfredo Pasta",
-    "amt": "185",
-    "shop": "LAKSHMI FOOD ",
-    "ftype": "Veg",
-    "pic": "https://www.app.tutorjoes.in/img/food/26.jpg",
-    "latest": "Yes"
-  },
-  {
-    "id": 89,
-    "name": "Farmers Pick",
-    "amt": "299",
-    "shop": "Kholi Hut",
-    "ftype": "Chicken-chilli",
-    "pic": "https://www.app.tutorjoes.in/img/food/9.jpg",
-    "latest": "No"
-  },
-  {
-    "id": 124,
-    "name": "Paper Roast Dosa",
-    "amt": "65",
-    "shop": "Sri Saivihar",
-    "ftype": "Veg",
-    "pic": "https://www.app.tutorjoes.in/img/food/124.jpg",
-    "latest": "No"
-  },
-  {
-    "id": 26,
-    "name": "Alfredo Pasta",
-    "amt": "185",
-    "shop": "LAKSHMI FOOD ",
-    "ftype": "Veg",
-    "pic": "https://www.app.tutorjoes.in/img/food/26.jpg",
-    "latest": "Yes"
-  },
-
-  {
-    "id": 89,
-    "name": "Farmers Pick",
-    "amt": "299",
-    "shop": "Kholi Hut",
-    "ftype": "Chicken-chilli",
-    "pic": "https://www.app.tutorjoes.in/img/food/9.jpg",
-    "latest": "No"
-  },
-  {
-    "id": 124,
-    "name": "Paper Roast Dosa with chawlna",
-    "amt": "65",
-    "shop": "Sri Saivihar",
-    "ftype": "Veg",
-    "pic": "https://www.app.tutorjoes.in/img/food/124.jpg",
-    "latest": "No"
+    "id": 12,
+    "name": "BBQ Ribs",
+    "amt": "380",
+    "shop": "Smokehouse Grill",
+    "ftype": "Non-Veg",
+    "category": "American",
+    "pic": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg",
+    "latest": "Yes",
+    "rating": 4.8,
+    "description": "Tender pork ribs with smoky BBQ sauce and coleslaw"
   }
 ]
