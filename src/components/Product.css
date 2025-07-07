@@ -1,0 +1,40 @@
+.product {
+  width: 200px;
+  height: 270px;
+  border: 1px solid #ccc;
+}
+.product img {
+  width: 100%;
+  height: 150px;
+}
+.product .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.details {
+  padding: 5px;
+}
+.details h3 {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.details p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #888;
+}
+.details button {
+  margin-top: 5px;
+  padding: 5px 10px;
+  background-color: teal;
+  color: #ccc;
+  border: none;
+  border-radius: 3px;
+}
+.details button:hover {
+  background-color: rgb(2, 104, 104);
+}
+.btnremove {
+  background-color: rgb(204, 82, 82) !important;
+}
