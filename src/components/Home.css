@@ -25,7 +25,7 @@
 }
 
 .highlight {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #dc2626 0%, #1e40af 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -81,7 +81,7 @@
   width: 48px;
   height: 48px;
   margin: 0 auto 1rem;
-  color: #667eea;
+  color: #dc2626;
 }
 
 .feature-card h3 {
@@ -117,14 +117,14 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  color: #667eea;
+  color: #dc2626;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease;
 }
 
 .view-all:hover {
-  color: #5a67d8;
+  color: #b91c1c;
 }
 
 .product-grid {
@@ -135,7 +135,7 @@
 
 /* Newsletter Section */
 .newsletter {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #dc2626 0%, #1e40af 100%);
   border-radius: 20px;
   padding: 4rem 2rem;
   text-align: center;

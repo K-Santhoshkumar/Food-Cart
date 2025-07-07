@@ -60,7 +60,7 @@
 }
 
 .contact-icon {
-  color: #667eea;
+  color: #dc2626;
   flex-shrink: 0;
 }
 
@@ -123,8 +123,8 @@
 .form-group select:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #667eea;
-  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  border-color: #dc2626;
+  box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.1);
 }
 
 .form-group textarea {
@@ -171,7 +171,7 @@
 }
 
 .map-content svg {
-  color: #667eea;
+  color: #dc2626;
   margin-bottom: 1rem;
 }
 
