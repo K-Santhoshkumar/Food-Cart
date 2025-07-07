@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ChefHat, Utensils, Coffee, IceCream } from "lucide-react";
+import { ChefHat, Utensils, Coffee, IceCream, Globe } from "lucide-react";
 import data from "../assets/products.json";
 import Product from "./Product";
 import "./Categories.css";
@@ -11,13 +11,16 @@ const Categories = ({ cart, setCart }) => {
     Italian: <ChefHat size={32} />,
     Indian: <Utensils size={32} />,
     American: <Coffee size={32} />,
-    Thai: <Utensils size={32} />,
-    Japanese: <ChefHat size={32} />,
-    Mexican: <Utensils size={32} />,
-    Greek: <ChefHat size={32} />,
-    Chinese: <Utensils size={32} />,
-    Desserts: <IceCream size={32} />,
-    Salads: <Utensils size={32} />
+    Asian: <Globe size={32} />,
+    Desserts: <IceCream size={32} />
+  };
+
+  const categoryDescriptions = {
+    Italian: "Authentic pasta, pizza, and Mediterranean flavors",
+    Indian: "Spicy curries, biryanis, and traditional dishes",
+    American: "Burgers, BBQ, and classic comfort food",
+    Asian: "Fresh sushi, noodles, and oriental cuisine",
+    Desserts: "Sweet treats and decadent desserts"
   };
 
   const categories = data.reduce((acc, product) => {
@@ -68,6 +71,7 @@ const Categories = ({ cart, setCart }) => {
             </div>
             <h3>{category.name}</h3>
             <p>{category.count} dishes</p>
+            <small>{categoryDescriptions[category.name]}</small>
           </div>
         ))}
       </div>
